@@ -1,0 +1,28 @@
+services:
+  demo-app:
+    build:
+      context: ./target
+    container_name: aegis-from-scratch-demo-app
+    ports:
+      - "127.0.0.1:8082:8081"
+    labels:
+      aegis.lab: "true"
+      aegis.target_id: "web-lab"
+      aegis.verifier: "http"
+      aegis.container_port: "8081/tcp"
+      aegis.description: "Isolated Docker FastAPI web service lab"
+    restart: "no"
+
+  redis-lab:
+    image: redis:7-alpine
+    container_name: aegis-from-scratch-redis-lab
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports:
+      - "127.0.0.1:6380:6379"
+    labels:
+      aegis.lab: "true"
+      aegis.target_id: "redis-lab"
+      aegis.verifier: "redis"
+      aegis.container_port: "6379/tcp"
+      aegis.description: "Isolated Docker Redis configuration lab"
+    restart: "no"

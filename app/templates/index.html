@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEGIS | Local AI Security Lab</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark"><img src="/static/aegis-shield.svg" alt="AEGIS shield monogram" /></span>
+          <div>
+            <p class="eyebrow">AUTONOMOUS PURPLE-TEAM CYBER RANGE</p>
+            <h1>AEGIS Control Center</h1>
+          </div>
+        </div>
+        <div class="lab-badge"><span></span> LOCAL LAB ACTIVE</div>
+      </header>
+
+      <section class="intro">
+        <div>
+          <p class="section-kicker">SECURE LOCAL OPERATIONS</p>
+          <h2>AEGIS security control deck</h2>
+          <p class="intro-copy">
+            Controlled assessment, protected local LLM access, and auditable policy decisions.
+          </p>
+        </div>
+        <div class="flow-mini" aria-label="AEGIS workflow">
+          <span>Policy</span><b>→</b><span>Analysis</span><b>→</b><span>LLM</span><b>→</b><span>Audit</span>
+        </div>
+      </section>
+
+      <section class="status-grid" aria-label="Lab status">
+        <article class="status-card">
+          <p>Target</p>
+          <strong id="target-name">No approved lab</strong>
+          <span id="target-details">Discover and approve a local Docker lab.</span>
+        </article>
+        <article class="status-card">
+          <p>Local model roles</p>
+          <strong id="model-role-summary">Loading local models…</strong>
+          <span id="model-role-details">Ollama roles will appear when the dashboard loads.</span>
+        </article>
+        <article class="status-card">
+          <p>Policy</p>
+          <strong>Enforced</strong>
+          <span>Allow-list · prompt guard</span>
+        </article>
+      </section>
+
+      <section class="panel model-routing-panel" aria-labelledby="model-routing-title">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">LOCAL MULTI-MODEL ROUTING</p>
+            <h3 id="model-routing-title">Switch LLM roles</h3>
+          </div>
+          <span class="policy-chip">GUARD FIXED</span>
+        </div>
+        <div class="model-routing-controls">
+          <label for="triage-model-select">Nmap triage model
+            <select id="triage-model-select" disabled></select>
+          </label>
+          <label for="analysis-model-select">Final analysis model
+            <select id="analysis-model-select" disabled></select>
+          </label>
+          <button class="button secondary" id="apply-models-button" disabled>Apply local roles</button>
+        </div>
+        <p class="model-routing-note" id="model-config-status">Checking the local Ollama model list…</p>
+      </section>
+
+      <section class="panel mission-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">MISSION CONTROLS</p>
+              <h3>Laboratory actions</h3>
+            </div>
+            <span class="policy-chip">NO EXTERNAL TARGETS</span>
+          </div>
+          <div class="target-selector">
+            <label for="assessment-target">Approved assessment target</label>
+            <select id="assessment-target" disabled>
+              <option value="">Discover and approve a local Docker lab first</option>
+            </select>
+            <p>Only approved loopback Docker labs can reach Nmap. No external host or port can be scanned.</p>
+          </div>
+          <div class="registry-controls">
+            <button class="button secondary" id="discover-labs-button">Discover local Docker labs</button>
+            <label for="pending-lab-select">Pending local lab
+              <select id="pending-lab-select" disabled>
+                <option value="">No pending lab</option>
+              </select>
+            </label>
+            <button class="button secondary" id="approve-lab-button" disabled>Approve selected lab</button>
+            <p id="registry-status">Docker metadata has not been read yet.</p>
+          </div>
+          <div class="action-strip">
+            <button class="action-button primary" id="assessment-button">
+              <span>01 / NMAP ASSESS</span>
+              <strong>Run assessment</strong>
+              <small id="assessment-description">Discover and verify the local Redis lab</small>
+            </button>
+            <button class="action-button danger" id="blocked-transfer-button">
+              <span>02 / POLICY TEST</span>
+              <strong>Test blocked transfer</strong>
+              <small>Prove external destinations are denied</small>
+            </button>
+            <button class="action-button secondary" id="local-transfer-button">
+              <span>03 / LOCAL AUDIT</span>
+              <strong>Send to local audit</strong>
+              <small>Record fictitious data locally</small>
+            </button>
+            <button class="action-button secondary" id="retest-button">
+              <span>04 / RETEST</span>
+              <strong>Retest remediation</strong>
+              <small id="retest-description">Confirm whether the Redis finding is fixed</small>
+            </button>
+            <button class="action-button secondary" id="catalog-button">
+              <span>05 / CATALOG</span>
+              <strong>Review validation catalog</strong>
+              <small>Match an earlier open finding; execution stays disabled</small>
+            </button>
+          </div>
+      </section>
+
+      <section class="workspace operations-workspace">
+        <article class="panel result-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">OPERATION OUTPUT</p>
+              <h3 id="result-title">Awaiting a lab action</h3>
+            </div>
+            <span class="result-state neutral" id="result-state">READY</span>
+          </div>
+          <pre id="result-output">Choose a mission control to view an evidence-backed result.</pre>
+          <div class="result-footer" id="result-report" hidden>
+            <a id="result-report-link" href="#">Download assessment report</a>
+          </div>
+        </article>
+        <article class="panel audit-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">IMMUTABLE AUDIT TRAIL</p>
+              <h3>Recent policy decisions</h3>
+            </div>
+            <button class="text-button" id="refresh-audit-button">Refresh</button>
+          </div>
+          <ul id="audit-list" class="audit-list">
+            <li class="empty-audit">Loading audit events…</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel prompt-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="section-kicker">ETHICAL GUARD</p>
+              <h3>Protected local LLM console</h3>
+            </div>
+            <span class="policy-chip">ALLOW / BLOCK</span>
+          </div>
+          <div class="prompt-workbench">
+            <div class="prompt-input-area">
+              <label for="prompt-input">Educational security question</label>
+              <textarea id="prompt-input" rows="6" placeholder="Example: What is access control?"></textarea>
+              <div class="prompt-actions">
+                <button class="button primary" id="prompt-button">Check and ask</button>
+                <p>Suspicious prompts never reach the model.</p>
+              </div>
+            </div>
+            <div class="prompt-response-area">
+              <div class="response-heading">
+                <span>GUARD RESPONSE</span>
+                <span class="result-state neutral" id="prompt-state">READY</span>
+              </div>
+              <pre id="prompt-output">Your checked response will appear here.</pre>
+            </div>
+          </div>
+      </section>
+
+      <footer>
+        <span>AEGIS · local-only educational laboratory</span>
+        <span>Fictitious data · Human-governed policy</span>
+      </footer>
+    </main>
+  </body>
+</html>

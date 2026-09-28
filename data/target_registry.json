@@ -1,0 +1,30 @@
+{
+  "targets": {
+    "redis-lab": {
+      "approved_at": "2026-09-23T08:59:51.622085+00:00",
+      "container_id": "828eb4f799b54cbf1ebca1195c8b94ae6a99a2e803ed141deb22bea1a2143b6e",
+      "container_name": "aegis-from-scratch-redis-lab",
+      "description": "Isolated Docker Redis configuration lab",
+      "discovered_at": "2026-09-23T07:42:09.201301+00:00",
+      "fingerprint": "redis-lab|redis|6379/tcp|6380|Isolated Docker Redis configuration lab",
+      "host": "127.0.0.1",
+      "id": "redis-lab",
+      "port": 6380,
+      "service": "redis",
+      "status": "approved"
+    },
+    "web-lab": {
+      "approved_at": "2026-09-23T09:03:16.102532+00:00",
+      "container_id": "60adf9dc6e8159b040bd7a1dea511680c522724809ee08562251c4900ec1551f",
+      "container_name": "aegis-from-scratch-demo-app",
+      "description": "Isolated Docker FastAPI web service lab",
+      "discovered_at": "2026-09-23T07:42:09.201349+00:00",
+      "fingerprint": "web-lab|http|8081/tcp|8082|Isolated Docker FastAPI web service lab",
+      "host": "127.0.0.1",
+      "id": "web-lab",
+      "port": 8082,
+      "service": "http",
+      "status": "approved"
+    }
+  }
+}

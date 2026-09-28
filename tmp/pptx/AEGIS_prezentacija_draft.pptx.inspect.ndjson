@@ -1,0 +1,440 @@
+{"kind":"deck","id":"pr/4j6hjz","name":"Deck"}
+{"kind":"layout","layoutId":"ab7b2c7d-fd56-4ff8-84ba-d1d20027482c","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"51b7a546-5a66-4bb5-a2eb-e3bf372eae10","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/19m808","slide":1,"title":"ПРОЕКТНА ПРЕЗЕНТАЦИЈА","textShapes":7}
+{"kind":"shape","id":"sh/f2hw3a10","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/g3adwfil","slide":1,"bbox":[0,0,16,720]}
+{"kind":"textbox","id":"sh/6x8vq50j","slide":1,"text":"ПРОЕКТНА ПРЕЗЕНТАЦИЈА","textPreview":"ПРОЕКТНА ПРЕЗЕНТАЦИЈА","textChars":21,"textLines":1,"bbox":[72,82,500,24]}
+{"kind":"textbox","id":"sh/ryhwza1o","slide":1,"text":"AEGIS","textPreview":"AEGIS","textChars":5,"textLines":1,"bbox":[68,132,650,92]}
+{"kind":"textbox","id":"sh/szqdsfi9","slide":1,"text":"Агентно базирано етичко хакирање со LLM","textPreview":"Агентно базирано етичко хакирање со LLM","textChars":39,"textLines":1,"bbox":[72,242,700,78]}
+{"kind":"textbox","id":"sh/t0ze10ju","slide":1,"text":"Локална Purple-Team платформа за проценка, верификација и ретестирање","textPreview":"Локална Purple-Team платформа за проценка, верификација и ретестирање","textChars":69,"textLines":1,"bbox":[74,340,650,54]}
+{"kind":"shape","id":"sh/qtsv2p0n","slide":1,"bbox":[74,462,514,2]}
+{"kind":"textbox","id":"sh/bulwbu18","slide":1,"text":"Docker лабораторија  •  Nmap  •  Ollama  •  Policy & Ethical Guards","textPreview":"Docker лабораторија  •  Nmap  •  Ollama  •  Policy & Ethical Guards","textChars":67,"textLines":1,"bbox":[74,486,700,28]}
+{"kind":"textbox","id":"sh/ryxkj6tk","slide":1,"text":"Изработила: Марија Ѓорѓиева","textPreview":"Изработила: Марија Ѓорѓиева","textChars":27,"textLines":1,"bbox":[74,614,420,24]}
+{"kind":"textbox","id":"sh/qxojq1cz","slide":1,"text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[1120,614,64,24]}
+{"kind":"image","id":"im/wnytcjm5","slide":1,"name":"","geometry":"roundRect","alt":"AEGIS shield logo","bbox":[830,95,330,330]}
+{"kind":"notes","id":"nt/19m808","slide":1,"text":"На овој слајд го претставувам AEGIS како локална, контролирана Purple-Team платформа. Главната идеја е да го спојам реалното скенирање со Nmap и проверката на сервисот со локални јазични модели, но моделот никогаш сам не прогласува ранливост."}
+{"kind":"slide","id":"sl/83qoln","slide":2,"title":"01  •  ВОВЕД","textShapes":13}
+{"kind":"textbox","id":"sh/bqp8ni9w","slide":2,"text":"01  •  ВОВЕД","textPreview":"01  •  ВОВЕД","textChars":12,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/cry9wnqh","slide":2,"text":"Зошто AEGIS?","textPreview":"Зошто AEGIS?","textChars":12,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/dsrqpsr2","slide":2,"text":"LLM може да помогне во анализа, но без контрола може да донесе погрешна или ризична одлука","textPreview":"LLM може да помогне во анализа, но без контрола може да донесе погрешна или ризична одлука","textChars":90,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/yt0ryx8n","slide":2,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/zu98ri9s","slide":2,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/0vi90nqd","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/lwratsry","slide":2,"bbox":[60,198,350,220]}
+{"kind":"shape","id":"sh/mx0r2x8j","slide":2,"bbox":[60,198,6,220]}
+{"kind":"textbox","id":"sh/ny9sv294","slide":2,"text":"Проблем","textPreview":"Проблем","textChars":7,"textLines":1,"bbox":[80,214,314,28]}
+{"kind":"textbox","id":"sh/rm1k3m1w","slide":2,"text":"Обично скенирање покажува дека портата е отворена. Тоа само по себе не докажува ранливост и не кажува дали проблемот е поправен.","textPreview":"Обично скенирање покажува дека портата е отворена. Тоа само по себе не докажува ранливост и не кажува дали проблемот е поправен.","textChars":128,"textLines":1,"bbox":[80,252,314,152]}
+{"kind":"shape","id":"sh/qls3ahkb","slide":2,"bbox":[465,198,350,220]}
+{"kind":"shape","id":"sh/d8jm5cj2","slide":2,"bbox":[465,198,6,220]}
+{"kind":"textbox","id":"sh/snalc72h","slide":2,"text":"Решение","textPreview":"Решение","textChars":7,"textLines":1,"bbox":[485,214,314,28]}
+{"kind":"textbox","id":"sh/3ihkz21k","slide":2,"text":"AEGIS комбинира Nmap, детерминистички верификатор, повеќе локални LLM улоги и policy проверки во еден повторлив процес.","textPreview":"AEGIS комбинира Nmap, детерминистички верификатор, повеќе локални LLM улоги и policy проверки во еден повторлив процес.","textChars":119,"textLines":1,"bbox":[485,252,314,152]}
+{"kind":"shape","id":"sh/ih836xkf","slide":2,"bbox":[870,198,350,220]}
+{"kind":"shape","id":"sh/5kj21cjq","slide":2,"bbox":[870,198,6,220]}
+{"kind":"textbox","id":"sh/4jql8725","slide":2,"text":"Цел","textPreview":"Цел","textChars":3,"textLines":1,"bbox":[890,214,314,28]}
+{"kind":"textbox","id":"sh/nel4b614","slide":2,"text":"Да добиеме проверлив резултат: OPEN, FIXED или NO_FINDING, придружен со извештај и audit trail.","textPreview":"Да добиеме проверлив резултат: OPEN, FIXED или NO_FINDING, придружен со извештај и audit trail.","textChars":95,"textLines":1,"bbox":[890,252,314,152]}
+{"kind":"textbox","id":"sh/2dc321kj","slide":2,"text":"Клучен принцип","textPreview":"Клучен принцип","textChars":14,"textLines":1,"bbox":[60,478,210,24]}
+{"kind":"textbox","id":"sh/y9wna54r","slide":2,"text":"LLM објаснува и сумира. Верификаторот одлучува дали наодот навистина постои.","textPreview":"LLM објаснува и сумира. Верификаторот одлучува дали наодот навистина постои.","textChars":76,"textLines":1,"bbox":[60,510,1050,46]}
+{"kind":"notes","id":"nt/83qoln","slide":2,"text":"Воведот треба да ја постави разликата меѓу откривање и докажување. Nmap може да каже дека сервисот слуша на порта, но AEGIS користи специјализиран верификатор: за Redis проверува дали бара автентикација, а за веб сервисот само потврдува дека сервисот одговара."}
+{"kind":"slide","id":"sl/73d185","slide":3,"title":"02  •  МЕТОДОЛОГИЈА","textShapes":19}
+{"kind":"textbox","id":"sh/0vuxsj2l","slide":3,"text":"02  •  МЕТОДОЛОГИЈА","textPreview":"02  •  МЕТОДОЛОГИЈА","textChars":19,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/fu1wzel0","slide":3,"text":"Red, Blue и Purple улогите во AEGIS","textPreview":"Red, Blue и Purple улогите во AEGIS","textChars":35,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/etsfq9kf","slide":3,"text":"Куќата е локалниот компјутер и Docker лабораторијата","textPreview":"Куќата е локалниот компјутер и Docker лабораторијата","textChars":52,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/dsjexo3u","slide":3,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/s7axoj29","slide":3,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/r61wvelo","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/q5sfm9kj","slide":3,"bbox":[64,184,1152,48]}
+{"kind":"textbox","id":"sh/xony983e","slide":3,"text":"КУЌАТА = локален компјутер + Docker lab     |     ВРАТИ = порти 6380 / 8082     |     КАТАНЕЦ = authentication","textPreview":"КУЌАТА = локален компјутер + Docker lab     |     ВРАТИ = порти 6380 / 8082     |     КАТАНЕЦ = authentication","textChars":110,"textLines":1,"bbox":[88,197,1090,24]}
+{"kind":"shape","id":"sh/c3ex032t","slide":3,"bbox":[64,258,350,280]}
+{"kind":"textbox","id":"sh/mlwvu1wr","slide":3,"text":"RED TEAM","textPreview":"RED TEAM","textChars":8,"textLines":1,"bbox":[94,282,250,30]}
+{"kind":"textbox","id":"sh/nm5cn6dc","slide":3,"text":"ПРОБЛЕМ / ПРОВЕРКА","textPreview":"ПРОБЛЕМ / ПРОВЕРКА","textChars":18,"textLines":1,"bbox":[94,323,260,26]}
+{"kind":"textbox","id":"sh/8nedwbex","slide":3,"text":"Проверува дали вратата е отклучена","textPreview":"Проверува дали вратата е отклучена","textChars":34,"textLines":1,"bbox":[94,360,280,44]}
+{"kind":"textbox","id":"sh/9onepgv2","slide":3,"text":"Nmap ги наоѓа портите.\nRedis / HTTP verifier потврдува.\nMetasploit catalog само прегледува.","textPreview":"Nmap ги наоѓа портите. | Redis / HTTP verifier потврдува. | Metasploit catalog само прегледува.","textChars":91,"textLines":3,"bbox":[94,430,260,82]}
+{"kind":"shape","id":"sh/yhcvqhwf","slide":3,"bbox":[465,258,350,280]}
+{"kind":"textbox","id":"sh/zi5cjmd0","slide":3,"text":"BLUE TEAM","textPreview":"BLUE TEAM","textChars":9,"textLines":1,"bbox":[495,282,250,30]}
+{"kind":"textbox","id":"sh/0jedsrel","slide":3,"text":"РЕШЕНИЕ / ЗАШТИТА","textPreview":"РЕШЕНИЕ / ЗАШТИТА","textChars":17,"textLines":1,"bbox":[495,323,270,26]}
+{"kind":"textbox","id":"sh/lknulwv6","slide":3,"text":"Го ограничува и го поправа проблемот","textPreview":"Го ограничува и го поправа проблемот","textChars":36,"textLines":1,"bbox":[495,360,280,44]}
+{"kind":"textbox","id":"sh/idgv2lcz","slide":3,"text":"Policy + Ethical Scope Guard\nPrompt / Transfer Guard\nRedis закрпа + Retest","textPreview":"Policy + Ethical Scope Guard | Prompt / Transfer Guard | Redis закрпа + Retest","textChars":74,"textLines":3,"bbox":[495,430,260,82]}
+{"kind":"shape","id":"sh/jepwvqdk","slide":3,"bbox":[866,258,350,280]}
+{"kind":"textbox","id":"sh/fy1snitw","slide":3,"text":"PURPLE TEAM","textPreview":"PURPLE TEAM","textChars":11,"textLines":1,"bbox":[896,282,250,30]}
+{"kind":"textbox","id":"sh/ex8rudcb","slide":3,"text":"КРАЈНА ЦЕЛ / ПОВРАТНА ВРСКА","textPreview":"КРАЈНА ЦЕЛ / ПОВРАТНА ВРСКА","textChars":27,"textLines":1,"bbox":[896,323,285,26]}
+{"kind":"textbox","id":"sh/1kjapsb2","slide":3,"text":"OPEN → PATCH → FIXED","textPreview":"OPEN → PATCH → FIXED","textChars":20,"textLines":1,"bbox":[896,360,280,40]}
+{"kind":"textbox","id":"sh/gza9wnuh","slide":3,"text":"Истата проверка се повторува после поправката и остава audit trail.","textPreview":"Истата проверка се повторува после поправката и остава audit trail.","textChars":67,"textLines":1,"bbox":[896,430,260,82]}
+{"kind":"textbox","id":"sh/3m1srits","slide":3,"text":"AEGIS = инспектор кој проверува само сопствена куќа, запишува доказ и не ја обива вратата автоматски.","textPreview":"AEGIS = инспектор кој проверува само сопствена куќа, запишува доказ и не ја обива вратата автоматски.","textChars":101,"textLines":1,"bbox":[110,588,1060,38]}
+{"kind":"notes","id":"nt/73d185","slide":3,"text":"Овој слајд ја користи аналогијата со куќа. Red Team гледа дали портата е отворена и дали Redis прифаќа PING без клуч. Blue Team применува политика, ја блокира ексфилтрацијата и додава requirepass. Purple Team ја споредува состојбата OPEN со состојбата после закрпата и бара FIXED."}
+{"kind":"slide","id":"sl/lzckda","slide":4,"title":"03  •  АРХИТЕКТУРА","textShapes":22}
+{"kind":"textbox","id":"sh/3ipsri50","slide":4,"text":"03  •  АРХИТЕКТУРА","textPreview":"03  •  АРХИТЕКТУРА","textChars":18,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/ojy9knml","slide":4,"text":"Како е составен системот","textPreview":"Како е составен системот","textChars":24,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/pkratsn6","slide":4,"text":"Кориснички интерфејс, оркестратор, алатки, модели и докази","textPreview":"Кориснички интерфејс, оркестратор, алатки, модели и докази","textChars":58,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/q50rmx4r","slide":4,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/b69sv25c","slide":4,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/c7i9o7mh","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/d8raxcn2","slide":4,"bbox":[58,190,260,410]}
+{"kind":"textbox","id":"sh/69wrado7","slide":4,"text":"КОРИСНИК","textPreview":"КОРИСНИК","textChars":8,"textLines":1,"bbox":[82,216,190,24]}
+{"kind":"textbox","id":"sh/ra58jy5s","slide":4,"text":"AEGIS dashboard","textPreview":"AEGIS dashboard","textChars":15,"textLines":1,"bbox":[82,254,190,30]}
+{"kind":"textbox","id":"sh/ru1k369c","slide":4,"text":"Target registry\nMission controls\nPrompt console\nReports & audit","textPreview":"Target registry | Mission controls | Prompt console | Reports & audit","textChars":63,"textLines":4,"bbox":[82,320,180,130]}
+{"kind":"textbox","id":"sh/q9sja1s7","slide":4,"text":"http://127.0.0.1:8000","textPreview":"http://127.0.0.1:8000","textChars":21,"textLines":1,"bbox":[82,540,190,25]}
+{"kind":"shape","id":"sh/dw325gri","slide":4,"bbox":[385,194,260,112]}
+{"kind":"textbox","id":"sh/svu1cbax","slide":4,"text":"FastAPI оркестратор","textPreview":"FastAPI оркестратор","textChars":19,"textLines":1,"bbox":[399,206,232,24]}
+{"kind":"textbox","id":"sh/361kzm9g","slide":4,"text":"Policy gate • scope gate\nroute /run-assessment","textPreview":"Policy gate • scope gate | route /run-assessment","textChars":46,"textLines":2,"bbox":[399,237,232,60]}
+{"kind":"shape","id":"sh/i5sj6hsv","slide":4,"bbox":[385,340,260,112]}
+{"kind":"textbox","id":"sh/58j21wrm","slide":4,"text":"Tool agents","textPreview":"Tool agents","textChars":11,"textLines":1,"bbox":[399,352,232,24]}
+{"kind":"textbox","id":"sh/47a18ra1","slide":4,"text":"Nmap • HTTP verifier\nRedis verifier","textPreview":"Nmap • HTTP verifier | Redis verifier","textChars":35,"textLines":2,"bbox":[399,383,232,60]}
+{"kind":"shape","id":"sh/v2h0vmt4","slide":4,"bbox":[385,486,260,112]}
+{"kind":"textbox","id":"sh/u18j2hsz","slide":4,"text":"Evidence layer","textPreview":"Evidence layer","textChars":14,"textLines":1,"bbox":[399,498,232,24]}
+{"kind":"textbox","id":"sh/yx83ehcr","slide":4,"text":"Reports • audit JSONL\nOPEN / FIXED / NO_FINDING","textPreview":"Reports • audit JSONL | OPEN / FIXED / NO_FINDING","textChars":47,"textLines":2,"bbox":[399,529,232,60]}
+{"kind":"shape","id":"sh/jyhk7mdc","slide":4,"bbox":[720,194,220,112]}
+{"kind":"textbox","id":"sh/kzqlg7ux","slide":4,"text":"Docker labs","textPreview":"Docker labs","textChars":11,"textLines":1,"bbox":[734,206,192,24]}
+{"kind":"textbox","id":"sh/l0z29cv2","slide":4,"text":"web-lab :8082\nredis-lab :6380","textPreview":"web-lab :8082 | redis-lab :6380","textChars":29,"textLines":2,"bbox":[734,237,192,60]}
+{"kind":"shape","id":"sh/6183ihcn","slide":4,"bbox":[720,340,220,112]}
+{"kind":"textbox","id":"sh/72hkbmd8","slide":4,"text":"Ollama","textPreview":"Ollama","textChars":6,"textLines":1,"bbox":[734,352,192,24]}
+{"kind":"textbox","id":"sh/83qlkrut","slide":4,"text":"llama3.2:1b\nllama3.2:3b","textPreview":"llama3.2:1b | llama3.2:3b","textChars":23,"textLines":2,"bbox":[734,383,192,60]}
+{"kind":"shape","id":"sh/t4j2dwve","slide":4,"bbox":[720,486,220,112]}
+{"kind":"textbox","id":"sh/u5s3m1cz","slide":4,"text":"Metasploit","textPreview":"Metasploit","textChars":10,"textLines":1,"bbox":[734,498,192,24]}
+{"kind":"textbox","id":"sh/v61kf6dk","slide":4,"text":"Каталог само\nexecution disabled","textPreview":"Каталог само | execution disabled","textChars":31,"textLines":2,"bbox":[734,529,192,60]}
+{"kind":"shape","id":"sh/5036l0fm","slide":4,"bbox":[318,246,67,4]}
+{"kind":"shape","id":"sh/4zu5cve1","slide":4,"bbox":[645,246,75,4]}
+{"kind":"shape","id":"sh/3yl4jqxg","slide":4,"bbox":[318,394,67,4]}
+{"kind":"shape","id":"sh/ixcnalwv","slide":4,"bbox":[645,394,75,4]}
+{"kind":"shape","id":"sh/don6p0fi","slide":4,"bbox":[318,540,67,4]}
+{"kind":"shape","id":"sh/sne5gvex","slide":4,"bbox":[645,540,75,4]}
+{"kind":"textbox","id":"sh/rmlonaxs","slide":4,"text":"Секој чекор се запишува како evidence: кој агент работел, што видел и зошто донел одлука.","textPreview":"Секој чекор се запишува како evidence: кој агент работел, што видел и зошто донел одлука.","textChars":89,"textLines":1,"bbox":[70,640,1110,26]}
+{"kind":"notes","id":"nt/lzckda","slide":4,"text":"Архитектурата е поделена во слоеви. FastAPI не се поврзува директно со произволен интернет домаќин. Target registry прво открива Docker лаборатории со AEGIS labels, а корисникот мора рачно да одобри една. Дури потоа се повикуваат Nmap и верификаторот."}
+{"kind":"slide","id":"sl/iqodq0","slide":5,"title":"04  •  ПОДГОТОВКА","textShapes":16}
+{"kind":"textbox","id":"sh/61wj6507","slide":5,"text":"04  •  ПОДГОТОВКА","textPreview":"04  •  ПОДГОТОВКА","textChars":17,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/t4721kji","slide":5,"text":"Discover и Approve пред скенирање","textPreview":"Discover и Approve пред скенирање","textChars":33,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/s3y18fix","slide":5,"text":"Корисникот прво ги открива локалните Docker лаборатории, па рачно одобрува една мета","textPreview":"Корисникот прво ги открива локалните Docker лаборатории, па рачно одобрува една мета","textChars":84,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/jy5kva1g","slide":5,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/ixwj250v","slide":5,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/50n2x0jm","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/3u9k7u1k","slide":5,"bbox":[610,192,560,108]}
+{"kind":"textbox","id":"sh/2tg3ep0f","slide":5,"text":"1  DISCOVER","textPreview":"1  DISCOVER","textChars":11,"textLines":1,"bbox":[636,210,170,24]}
+{"kind":"textbox","id":"sh/sry1wzep","slide":5,"text":"Docker labels → PENDING local labs","textPreview":"Docker labels → PENDING local labs","textChars":34,"textLines":1,"bbox":[636,244,480,28]}
+{"kind":"textbox","id":"sh/ts7254fa","slide":5,"text":"Docker labels + 127.0.0.1 binding → PENDING","textPreview":"Docker labels + 127.0.0.1 binding → PENDING","textChars":43,"textLines":1,"bbox":[636,272,480,24]}
+{"kind":"textbox","id":"sh/6pgjupwj","slide":5,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[876,304,30,28]}
+{"kind":"shape","id":"sh/rqpk3ux4","slide":5,"bbox":[610,326,560,112]}
+{"kind":"textbox","id":"sh/43e1sfed","slide":5,"text":"2  APPROVE","textPreview":"2  APPROVE","textChars":10,"textLines":1,"bbox":[636,344,170,24]}
+{"kind":"textbox","id":"sh/5o721kfy","slide":5,"text":"Human-in-the-loop одлука","textPreview":"Human-in-the-loop одлука","textChars":24,"textLines":1,"bbox":[636,378,420,28]}
+{"kind":"textbox","id":"sh/i1wjqpwn","slide":5,"text":"Корисникот избира target од dropdown и клика Approve.","textPreview":"Корисникот избира target од dropdown и клика Approve.","textChars":53,"textLines":1,"bbox":[636,406,480,34]}
+{"kind":"textbox","id":"sh/j25kzax8","slide":5,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[876,446,30,28]}
+{"kind":"shape","id":"sh/wze1ofyh","slide":5,"bbox":[610,472,560,122]}
+{"kind":"textbox","id":"sh/h0n2xkf2","slide":5,"text":"3  ETHICAL SCOPE","textPreview":"3  ETHICAL SCOPE","textChars":16,"textLines":1,"bbox":[636,490,210,24]}
+{"kind":"textbox","id":"sh/xwfi1w7q","slide":5,"text":"APPROVED само ако е 127.0.0.1","textPreview":"APPROVED само ако е 127.0.0.1","textChars":29,"textLines":1,"bbox":[636,524,480,28]}
+{"kind":"textbox","id":"sh/wv6hsbq5","slide":5,"text":"Без approval / надвор од loopback → BLOCKED; tools_called = [].","textPreview":"Без approval / надвор од loopback → BLOCKED; tools_called = [].","textChars":63,"textLines":1,"bbox":[636,556,480,40]}
+{"kind":"image","id":"im/x8zalkju","slide":5,"name":"","geometry":"roundRect","alt":"Real AEGIS screenshot before any lab is approved","bbox":[54,192,500,330]}
+{"kind":"notes","id":"nt/iqodq0","slide":5,"text":"Ова е првиот вистински чекор во интерфејсот. Discover не скенира мрежа, туку ги бара активните Docker контејнери со AEGIS labels. Тие почнуваат како PENDING. Корисникот мора да избере и да одобри. Без тоа, Policy и Ethical Scope Guard го стопираат assessment-от пред Nmap."}
+{"kind":"slide","id":"sl/4bokve","slide":6,"title":"05  •  ИЗБОР НА ЛАБОРАТОРИЈА","textShapes":11}
+{"kind":"textbox","id":"sh/98fudovm","slide":6,"text":"05  •  ИЗБОР НА ЛАБОРАТОРИЈА","textPreview":"05  •  ИЗБОР НА ЛАБОРАТОРИЈА","textChars":28,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/m5ob2twb","slide":6,"text":"Web или Redis: што значи секоја мета","textPreview":"Web или Redis: што значи секоја мета","textChars":36,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/n6xcbedw","slide":6,"text":"Истиот интерфејс води кон различен verifier и различен очекуван исход","textPreview":"Истиот интерфејс води кон различен verifier и различен очекуван исход","textChars":69,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/0j6t0je5","slide":6,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/14fu9ovq","slide":6,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/ehoby9wz","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/kzqdc3u9","slide":6,"bbox":[578,194,590,140]}
+{"kind":"shape","id":"sh/l0jul8vu","slide":6,"bbox":[578,194,6,140]}
+{"kind":"textbox","id":"sh/5knq1sby","slide":6,"text":"web-lab  •  127.0.0.1:8082","textPreview":"web-lab  •  127.0.0.1:8082","textChars":26,"textLines":1,"bbox":[598,210,554,28]}
+{"kind":"textbox","id":"sh/4jepsnud","slide":6,"text":"FastAPI / Uvicorn сервис. AEGIS проверува дали сервисот одговара и очекува NO_FINDING кога нема потврден наод.","textPreview":"FastAPI / Uvicorn сервис. AEGIS проверува дали сервисот одговара и очекува NO_FINDING кога нема потврден наод.","textChars":110,"textLines":1,"bbox":[598,248,554,72]}
+{"kind":"shape","id":"sh/ji58zit8","slide":6,"bbox":[578,360,590,140]}
+{"kind":"shape","id":"sh/ihw7qxcn","slide":6,"bbox":[578,360,6,140]}
+{"kind":"textbox","id":"sh/hgnqxsv2","slide":6,"text":"redis-lab  •  127.0.0.1:6380","textPreview":"redis-lab  •  127.0.0.1:6380","textChars":28,"textLines":1,"bbox":[598,376,554,28]}
+{"kind":"textbox","id":"sh/wveponuh","slide":6,"text":"Redis база за демонстрација на CWE-306. Без лозинка дава OPEN, со --requirepass и retest дава FIXED.","textPreview":"Redis база за демонстрација на CWE-306. Без лозинка дава OPEN, со --requirepass и retest дава FIXED.","textChars":100,"textLines":1,"bbox":[598,414,554,72]}
+{"kind":"shape","id":"sh/vu58vidw","slide":6,"bbox":[54,574,1114,72]}
+{"kind":"textbox","id":"sh/atw7mdcb","slide":6,"text":"МОЖНИ СОСТОЈБИ","textPreview":"МОЖНИ СОСТОЈБИ","textChars":14,"textLines":1,"bbox":[78,589,210,22]}
+{"kind":"textbox","id":"sh/1crq9cb6","slide":6,"text":"NOT APPROVED → BLOCKED   |   APPROVED + web → NO_FINDING   |   Redis без auth → OPEN   |   Redis по patch → FIXED","textPreview":"NOT APPROVED → BLOCKED   |   APPROVED + web → NO_FINDING   |   Redis без auth → OPEN   |   Redis по patch → FIXED","textChars":113,"textLines":1,"bbox":[78,619,1050,24]}
+{"kind":"image","id":"im/ydwz2d4n","slide":6,"name":"","geometry":"roundRect","alt":"Real AEGIS screenshot showing the Web and Redis target choices","bbox":[54,196,470,340]}
+{"kind":"notes","id":"nt/4bokve","slide":6,"text":"Web и Redis се две различни лаборатории. Web сервисот е за service discovery и намерно нема verified finding. Redis е сценариото со наод: прво OPEN кога PING поминува без лозинка, а потоа FIXED кога PING враќа NOAUTH. Ако target не е approved, резултатот е BLOCKED пред алатките."}
+{"kind":"slide","id":"sl/zwq39t","slide":7,"title":"06  •  LLM ОРКЕСТРАЦИЈА","textShapes":17}
+{"kind":"textbox","id":"sh/w72t0j6d","slide":7,"text":"06  •  LLM ОРКЕСТРАЦИЈА","textPreview":"06  •  LLM ОРКЕСТРАЦИЈА","textChars":23,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/v6tcreps","slide":7,"text":"Кој модел за која задача","textPreview":"Кој модел за која задача","textChars":24,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/u5kby987","slide":7,"text":"Моделите не се случајно менувани: секој има јасна улога во pipeline-от","textPreview":"Моделите не се случајно менувани: секој има јасна улога во pipeline-от","textChars":70,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/94bup47m","slide":7,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/832twzqh","slide":7,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/72tcnupw","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/m1kbup8b","slide":7,"bbox":[72,226,330,170]}
+{"kind":"textbox","id":"sh/d0fu1o76","slide":7,"text":"llama3.2:1b или 3b","textPreview":"llama3.2:1b или 3b","textChars":18,"textLines":1,"bbox":[86,238,302,24]}
+{"kind":"textbox","id":"sh/szmds36l","slide":7,"text":"Nmap triage\nИзбраниот модел чита structured scan\nКласификација: web / database","textPreview":"Nmap triage | Избраниот модел чита structured scan | Класификација: web / database","textChars":78,"textLines":3,"bbox":[86,269,302,118]}
+{"kind":"shape","id":"sh/yp4ba9gb","slide":7,"bbox":[474,226,330,170]}
+{"kind":"textbox","id":"sh/jqdcjehw","slide":7,"text":"llama3.2:3b","textPreview":"llama3.2:3b","textChars":11,"textLines":1,"bbox":[488,238,302,24]}
+{"kind":"textbox","id":"sh/kr6tcjy1","slide":7,"text":"Semantic Prompt Guard\nПроверува injection и override\nFail-closed одлука","textPreview":"Semantic Prompt Guard | Проверува injection и override | Fail-closed одлука","textChars":71,"textLines":3,"bbox":[488,269,302,118]}
+{"kind":"shape","id":"sh/lsfulozm","slide":7,"bbox":[876,226,330,170]}
+{"kind":"textbox","id":"sh/a14b69gz","slide":7,"text":"llama3.2:3b или 1b","textPreview":"llama3.2:3b или 1b","textChars":18,"textLines":1,"bbox":[890,238,302,24]}
+{"kind":"textbox","id":"sh/b2dcfuhk","slide":7,"text":"Final analysis / recommendations\nМоже да се смени од UI\nСекогаш после verifier","textPreview":"Final analysis / recommendations | Може да се смени од UI | Секогаш после verifier","textChars":78,"textLines":3,"bbox":[890,269,302,118]}
+{"kind":"textbox","id":"sh/w3mt8zy5","slide":7,"text":"Nmap XML / JSON","textPreview":"Nmap XML / JSON","textChars":15,"textLines":1,"bbox":[120,444,220,24]}
+{"kind":"textbox","id":"sh/x4vuh4zq","slide":7,"text":"Prompt input","textPreview":"Prompt input","textChars":12,"textLines":1,"bbox":[540,444,200,24]}
+{"kind":"textbox","id":"sh/uxovitgj","slide":7,"text":"Verified finding","textPreview":"Verified finding","textChars":16,"textLines":1,"bbox":[940,444,200,24]}
+{"kind":"textbox","id":"sh/vyxcryho","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[402,438,64,30]}
+{"kind":"textbox","id":"sh/rqp0nmt4","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[804,438,64,30]}
+{"kind":"shape","id":"sh/6pgzu1sj","slide":7,"bbox":[72,514,1136,84]}
+{"kind":"textbox","id":"sh/ts7ipwba","slide":7,"text":"Опционално: OpenRouter може да се активира само со сопствен API key. Во основната демонстрација сите модели се локални преку Ollama.","textPreview":"Опционално: OpenRouter може да се активира само со сопствен API key. Во основната демонстрација сите модели се локални преку Ollama.","textChars":132,"textLines":1,"bbox":[98,540,1080,34]}
+{"kind":"notes","id":"nt/zwq39t","slide":7,"text":"Моделот за Nmap triage не одлучува дали постои ранливост. Тој само го класифицира сервисот и дава контекст. Semantic Prompt Guard е посилен локален модел кој ги проверува prompt-ите. Финалната анализа може да користи друг модел, но препораката секогаш доаѓа после детерминистичкиот verifier."}
+{"kind":"slide","id":"sl/e8t8p4","slide":8,"title":"07  •  WORKFLOW","textShapes":44}
+{"kind":"textbox","id":"sh/lsbmhgrq","slide":8,"text":"07  •  WORKFLOW","textPreview":"07  •  WORKFLOW","textChars":15,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/y5k3mlsz","slide":8,"text":"Од Docker target до проверен извештај","textPreview":"Од Docker target до проверен извештај","textChars":37,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/zqt4fq9k","slide":8,"text":"Целиот pipeline во редоследот што го извршува апликацијата","textPreview":"Целиот pipeline во редоследот што го извршува апликацијата","textChars":58,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/8v25svah","slide":8,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/9wbml0r2","slide":8,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/mtk3qlsb","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/nut4jq9w","slide":8,"bbox":[42,236,116,144]}
+{"kind":"textbox","id":"sh/ozilgrax","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[54,249,28,25]}
+{"kind":"textbox","id":"sh/p0rm9wri","slide":8,"text":"Discover","textPreview":"Discover","textChars":8,"textLines":1,"bbox":[54,286,92,28]}
+{"kind":"textbox","id":"sh/h0b2pc72","slide":8,"text":"Docker labels","textPreview":"Docker labels","textChars":13,"textLines":1,"bbox":[54,330,92,34]}
+{"kind":"textbox","id":"sh/gz2lw76h","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[160,292,22,28]}
+{"kind":"shape","id":"sh/vytkn2pc","slide":8,"bbox":[177,236,116,144]}
+{"kind":"textbox","id":"sh/uxkjuxor","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[189,249,28,25]}
+{"kind":"textbox","id":"sh/54v2tc7e","slide":8,"text":"Approve","textPreview":"Approve","textChars":7,"textLines":1,"bbox":[189,286,92,28]}
+{"kind":"textbox","id":"sh/43ml0r6t","slide":8,"text":"loopback only","textPreview":"loopback only","textChars":13,"textLines":1,"bbox":[189,330,92,34]}
+{"kind":"textbox","id":"sh/32tkrmp8","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[295,292,22,28]}
+{"kind":"shape","id":"sh/i1k3yhon","slide":8,"bbox":[312,236,116,144]}
+{"kind":"textbox","id":"sh/d8v2xwna","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[324,249,28,25]}
+{"kind":"textbox","id":"sh/c7ml4r6p","slide":8,"text":"Policy","textPreview":"Policy","textChars":6,"textLines":1,"bbox":[324,286,92,28]}
+{"kind":"textbox","id":"sh/wnedgzid","slide":8,"text":"scope gate","textPreview":"scope gate","textChars":10,"textLines":1,"bbox":[324,330,92,34]}
+{"kind":"textbox","id":"sh/xonep4zy","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[430,292,22,28]}
+{"kind":"shape","id":"sh/alwvep07","slide":8,"bbox":[447,236,116,144]}
+{"kind":"textbox","id":"sh/bm5wnuhs","slide":8,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[459,249,28,25]}
+{"kind":"textbox","id":"sh/kbedkzi9","slide":8,"text":"Nmap","textPreview":"Nmap","textChars":4,"textLines":1,"bbox":[459,286,92,28]}
+{"kind":"textbox","id":"sh/lc7et4zu","slide":8,"text":"real tool call","textPreview":"real tool call","textChars":14,"textLines":1,"bbox":[459,330,92,34]}
+{"kind":"textbox","id":"sh/ypwvi90j","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[565,292,22,28]}
+{"kind":"shape","id":"sh/jq5wreho","slide":8,"bbox":[582,236,116,144]}
+{"kind":"textbox","id":"sh/0fud8fi5","slide":8,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[594,249,28,25]}
+{"kind":"textbox","id":"sh/1g3uhkzq","slide":8,"text":"Triage","textPreview":"Triage","textChars":6,"textLines":1,"bbox":[594,286,92,28]}
+{"kind":"textbox","id":"sh/3a9gni18","slide":8,"text":"local LLM","textPreview":"local LLM","textChars":9,"textLines":1,"bbox":[594,330,92,34]}
+{"kind":"textbox","id":"sh/i90zedkn","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[700,292,22,28]}
+{"kind":"shape","id":"sh/5cbypsje","slide":8,"bbox":[717,236,116,144]}
+{"kind":"textbox","id":"sh/4b2hgn2t","slide":8,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[729,249,28,25]}
+{"kind":"textbox","id":"sh/v69gjy1w","slide":8,"text":"Verify","textPreview":"Verify","textChars":6,"textLines":1,"bbox":[729,286,92,28]}
+{"kind":"textbox","id":"sh/u50zadkr","slide":8,"text":"socket / HTTP","textPreview":"socket / HTTP","textChars":13,"textLines":1,"bbox":[729,330,92,34]}
+{"kind":"textbox","id":"sh/h8ryl8j2","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[835,292,22,28]}
+{"kind":"shape","id":"sh/g7ihc32h","slide":8,"bbox":[852,236,116,144]}
+{"kind":"textbox","id":"sh/7ipgfy10","slide":8,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[864,249,28,25]}
+{"kind":"textbox","id":"sh/6hgf6tkf","slide":8,"text":"Report","textPreview":"Report","textChars":6,"textLines":1,"bbox":[864,286,92,28]}
+{"kind":"textbox","id":"sh/mp03q1gz","slide":8,"text":"OPEN evidence","textPreview":"OPEN evidence","textChars":13,"textLines":1,"bbox":[864,330,92,34]}
+{"kind":"textbox","id":"sh/nqtkjmxk","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[970,292,22,28]}
+{"kind":"shape","id":"sh/8r2lsry5","slide":8,"bbox":[987,236,116,144]}
+{"kind":"textbox","id":"sh/9sb2lwfq","slide":8,"text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[999,249,28,25]}
+{"kind":"textbox","id":"sh/yl0jmhg3","slide":8,"text":"Catalog","textPreview":"Catalog","textChars":7,"textLines":1,"bbox":[999,286,92,28]}
+{"kind":"textbox","id":"sh/zm9kfmxo","slide":8,"text":"msfconsole review","textPreview":"msfconsole review","textChars":17,"textLines":1,"bbox":[999,330,92,34]}
+{"kind":"textbox","id":"sh/0ni1oryt","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1105,292,22,28]}
+{"kind":"shape","id":"sh/lor2hwfe","slide":8,"bbox":[1122,236,116,144]}
+{"kind":"textbox","id":"sh/qhgjihgr","slide":8,"text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[1134,249,28,25]}
+{"kind":"textbox","id":"sh/bi9kb2xc","slide":8,"text":"Retest","textPreview":"Retest","textChars":6,"textLines":1,"bbox":[1134,286,92,28]}
+{"kind":"textbox","id":"sh/tcf6hkzu","slide":8,"text":"FIXED after patch","textPreview":"FIXED after patch","textChars":17,"textLines":1,"bbox":[1134,330,92,34]}
+{"kind":"shape","id":"sh/sb65ofi9","slide":8,"bbox":[64,428,1090,102]}
+{"kind":"textbox","id":"sh/7ax4fah4","slide":8,"text":"Позитивен пример  •  redis-lab:6380","textPreview":"Позитивен пример  •  redis-lab:6380","textChars":35,"textLines":1,"bbox":[88,446,360,24]}
+{"kind":"textbox","id":"sh/69onm50j","slide":8,"text":"Nmap детектира open 6380, но Redis verifier преку PING детерминистички произведува CWE-306 (OPEN). LLM не измислува наод.","textPreview":"Nmap детектира open 6380, но Redis verifier преку PING детерминистички произведува CWE-306 (OPEN). LLM не измислува наод.","textChars":121,"textLines":1,"bbox":[88,476,1010,34]}
+{"kind":"shape","id":"sh/58vmd0zy","slide":8,"bbox":[64,554,1090,102]}
+{"kind":"textbox","id":"sh/k7m5kvid","slide":8,"text":"Затворање на циклусот  •  Retest","textPreview":"Затворање на циклусот  •  Retest","textChars":32,"textLines":1,"bbox":[88,572,360,24]}
+{"kind":"textbox","id":"sh/jmd4bqhs","slide":8,"text":"По --requirepass во docker-compose.yml, Retest повторува socket тест, добива -NOAUTH и ја менува состојбата од OPEN во FIXED.","textPreview":"По --requirepass во docker-compose.yml, Retest повторува socket тест, добива -NOAUTH и ја менува состојбата од OPEN во FIXED.","textChars":125,"textLines":1,"bbox":[88,602,1010,34]}
+{"kind":"notes","id":"nt/e8t8p4","slide":8,"text":"Каталогот е посебен чекор помеѓу Report и Retest. Тој не стартува exploit, туку само овозможува listing и controlled match за верификуван OPEN finding. После тоа операторот внесува закрпа, а Retest ја проверува состојбата повторно."}
+{"kind":"slide","id":"sl/w6j9t1","slide":9,"title":"08  •  ЛАБОРАТОРИСКА ОКОЛИНА","textShapes":14}
+{"kind":"textbox","id":"sh/bitkfq1c","slide":9,"text":"08  •  ЛАБОРАТОРИСКА ОКОЛИНА","textPreview":"08  •  ЛАБОРАТОРИСКА ОКОЛИНА","textChars":28,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/wj2lovix","slide":9,"text":"Изолација и потребни ресурси","textPreview":"Изолација и потребни ресурси","textChars":28,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/xkb2h0ji","slide":9,"text":"Сè работи локално, на loopback адреси, во Docker","textPreview":"Сè работи локално, на loopback адреси, во Docker","textChars":48,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/y5k3q503","slide":9,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/j6dkja18","slide":9,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/k7mlsfit","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/58v2lkje","slide":9,"bbox":[60,196,330,190]}
+{"kind":"shape","id":"sh/6943u50z","slide":9,"bbox":[60,196,6,190]}
+{"kind":"textbox","id":"sh/7ad4na1k","slide":9,"text":"Хардвер","textPreview":"Хардвер","textChars":7,"textLines":1,"bbox":[80,212,294,28]}
+{"kind":"textbox","id":"sh/redcjal8","slide":9,"text":"Windows 11 машина\nМинимум 8 GB RAM за удобно работење\nСлободен простор за Docker images и модели","textPreview":"Windows 11 машина | Минимум 8 GB RAM за удобно работење | Слободен простор за Docker images и модели","textChars":96,"textLines":3,"bbox":[80,250,294,122]}
+{"kind":"shape","id":"sh/qd4ba54n","slide":9,"bbox":[425,196,330,190]}
+{"kind":"shape","id":"sh/d0vulk3e","slide":9,"bbox":[425,196,6,190]}
+{"kind":"textbox","id":"sh/szmtcfmt","slide":9,"text":"Софтвер","textPreview":"Софтвер","textChars":7,"textLines":1,"bbox":[445,212,294,28]}
+{"kind":"textbox","id":"sh/3adcfalc","slide":9,"text":"Docker Desktop\nPython + FastAPI\nNmap CLI\nOllama + llama3.2:1b / 3b\nMetasploit Framework (msfconsole)","textPreview":"Docker Desktop | Python + FastAPI | Nmap CLI | Ollama + llama3.2:1b / 3b | Metasploit Framework (msfconsole)","textChars":100,"textLines":5,"bbox":[445,250,294,122]}
+{"kind":"shape","id":"sh/i9kb654r","slide":9,"bbox":[790,196,430,190]}
+{"kind":"shape","id":"sh/5cvuh032","slide":9,"bbox":[790,196,6,190]}
+{"kind":"textbox","id":"sh/4bmt8vmx","slide":9,"text":"Изолација","textPreview":"Изолација","textChars":9,"textLines":1,"bbox":[810,212,394,28]}
+{"kind":"textbox","id":"sh/n6xcrulg","slide":9,"text":"Docker ports се врзани само на 127.0.0.1. Data Exfiltration Guard / TransferGuardian спречува испраќање извештаи кон надворешен домен. Нема автоматски payload.","textPreview":"Docker ports се врзани само на 127.0.0.1. Data Exfiltration Guard / TransferGuardian спречува испраќање извештаи кон надворешен домен. Не...","textChars":159,"textLines":1,"bbox":[810,250,394,122]}
+{"kind":"shape","id":"sh/25obip4v","slide":9,"bbox":[60,442,650,138]}
+{"kind":"textbox","id":"sh/y1sfqto3","slide":9,"text":"web-lab    127.0.0.1:8082 → 8081\nredis-lab  127.0.0.1:6380 → 6379\n\nTarget Registry Guard = Docker label + explicit human approval","textPreview":"web-lab    127.0.0.1:8082 → 8081 | redis-lab  127.0.0.1:6380 → 6379 |  | Target Registry Guard = Docker label + explicit human approval","textChars":129,"textLines":4,"bbox":[78,456,614,110]}
+{"kind":"textbox","id":"sh/z21wjy5o","slide":9,"text":"Безбедносно предупредување","textPreview":"Безбедносно предупредување","textChars":26,"textLines":1,"bbox":[760,448,380,28]}
+{"kind":"textbox","id":"sh/k3axs369","slide":9,"text":"Операциите се наменети само за сопствената лабораторија. Не додавај надворешен target без експлицитна дозвола и одделена, изолирана средина.","textPreview":"Операциите се наменети само за сопствената лабораторија. Не додавај надворешен target без експлицитна дозвола и одделена, изолирана средина.","textChars":140,"textLines":1,"bbox":[760,488,410,92]}
+{"kind":"notes","id":"nt/w6j9t1","slide":9,"text":"Пред демонстрацијата се нагласува дека околината е лабораторија, а не production мрежа. Docker Compose ги подига двата сервиси. Target registry не чита произволни адреси, туку бара локални Docker labels и 127.0.0.1 port binding."}
+{"kind":"slide","id":"sl/0pxd14","slide":10,"title":"09  •  СЦЕНАРИО A","textShapes":16}
+{"kind":"textbox","id":"sh/tsfqlo7a","slide":10,"text":"09  •  СЦЕНАРИО A","textPreview":"09  •  СЦЕНАРИО A","textChars":17,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/65ora98j","slide":10,"text":"Redis наод: OPEN","textPreview":"Redis наод: OPEN","textChars":16,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/7qx8jep4","slide":10,"text":"Отворена порта не е доволна. Наодот се потврдува со директен, не-деструктивен probe","textPreview":"Отворена порта не е доволна. Наодот се потврдува со директен, не-деструктивен probe","textChars":83,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/k3698jqd","slide":10,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/l4fqho7y","slide":10,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/y1or698n","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"textbox","id":"sh/4zq9k3qx","slide":10,"text":"Редослед","textPreview":"Редослед","textChars":8,"textLines":1,"bbox":[620,194,190,24]}
+{"kind":"textbox","id":"sh/50jat87i","slide":10,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[620,234,36,28]}
+{"kind":"textbox","id":"sh/90r25cz2","slide":10,"text":"Nmap","textPreview":"Nmap","textChars":4,"textLines":1,"bbox":[666,232,454,26]}
+{"kind":"textbox","id":"sh/8zy1c7yh","slide":10,"text":"6380/tcp е open на 127.0.0.1.","textPreview":"6380/tcp е open на 127.0.0.1.","textChars":29,"textLines":1,"bbox":[666,262,454,44]}
+{"kind":"textbox","id":"sh/7ypk32hw","slide":10,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[620,316,36,28]}
+{"kind":"textbox","id":"sh/mxgjaxgb","slide":10,"text":"Redis verifier","textPreview":"Redis verifier","textChars":14,"textLines":1,"bbox":[666,314,454,26]}
+{"kind":"textbox","id":"sh/lw721szq","slide":10,"text":"Испраќа PING преку socket.","textPreview":"Испраќа PING преку socket.","textChars":26,"textLines":1,"bbox":[666,344,454,44]}
+{"kind":"textbox","id":"sh/kvy18nyl","slide":10,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[620,398,36,28]}
+{"kind":"textbox","id":"sh/zapkzih0","slide":10,"text":"Доказ","textPreview":"Доказ","textChars":5,"textLines":1,"bbox":[666,396,454,26]}
+{"kind":"textbox","id":"sh/y9gj6dgf","slide":10,"text":"+PONG без лозинка → CWE-306.","textPreview":"+PONG без лозинка → CWE-306.","textChars":28,"textLines":1,"bbox":[666,426,454,44]}
+{"kind":"shape","id":"sh/5sb2dwfa","slide":10,"bbox":[620,482,500,102]}
+{"kind":"textbox","id":"sh/4r2lkryp","slide":10,"text":"verification.status = \"open\"\nfinding = \"CWE-306\"\nseverity = \"high\"","textPreview":"verification.status = \"open\" | finding = \"CWE-306\" | severity = \"high\"","textChars":66,"textLines":3,"bbox":[638,496,464,74]}
+{"kind":"image","id":"im/itormxov","slide":10,"name":"","geometry":"roundRect","alt":"Mission controls screenshot","bbox":[54,190,510,365]}
+{"kind":"notes","id":"nt/0pxd14","slide":10,"text":"Во првото Redis сценарио target registry го открива redis-lab и корисникот го одобрува. Nmap гледа дека портата е отворена, но RedisAccessVerifier прави вистинска проверка: PING враќа +PONG и Redis прифаќа команда без authentication. Тоа е моментот кога системот создава проверен OPEN наод."}
+{"kind":"slide","id":"sl/lmqckw","slide":11,"title":"10  •  СЦЕНАРИО B","textShapes":10}
+{"kind":"textbox","id":"sh/1sf2tg3m","slide":11,"text":"10  •  СЦЕНАРИО B","textPreview":"10  •  СЦЕНАРИО B","textChars":17,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/ep43il4v","slide":11,"text":"Закрпа и retest: FIXED","textPreview":"Закрпа и retest: FIXED","textChars":22,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/zqxkr6lg","slide":11,"text":"Истата проверка потврдува дека authentication сега е задолжителна","textPreview":"Истата проверка потврдува дека authentication сега е задолжителна","textChars":65,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/cnm1gbmp","slide":11,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/dov2pg3a","slide":11,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/q14je14z","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/wjqlsvm9","slide":11,"bbox":[628,204,530,116]}
+{"kind":"textbox","id":"sh/xkz2l03e","slide":11,"text":"PATCH","textPreview":"PATCH","textChars":5,"textLines":1,"bbox":[652,224,100,24]}
+{"kind":"textbox","id":"sh/t4r6h4zi","slide":11,"text":"redis-server --requirepass …","textPreview":"redis-server --requirepass …","textChars":28,"textLines":1,"bbox":[652,260,450,30]}
+{"kind":"shape","id":"sh/83i5ozyx","slide":11,"bbox":[628,350,530,116]}
+{"kind":"textbox","id":"sh/7294fuhc","slide":11,"text":"RETEST","textPreview":"RETEST","textChars":6,"textLines":1,"bbox":[652,370,120,24]}
+{"kind":"textbox","id":"sh/610nmpg7","slide":11,"text":"-NOAUTH → finding no longer verified","textPreview":"-NOAUTH → finding no longer verified","textChars":36,"textLines":1,"bbox":[652,406,455,30]}
+{"kind":"textbox","id":"sh/l07mdkzm","slide":11,"text":"Статусот FIXED доаѓа од новиот verifier резултат и од споредбата со претходниот OPEN report. Nmap сè уште може да гледа open port, затоа што достапноста не значи и неавтентициран пристап.","textPreview":"Статусот FIXED доаѓа од новиот verifier резултат и од споредбата со претходниот OPEN report. Nmap сè уште може да гледа open port, затоа ...","textChars":187,"textLines":1,"bbox":[628,506,520,74]}
+{"kind":"image","id":"im/elkj6pcj","slide":11,"name":"","geometry":"roundRect","alt":"Real Redis remediation retest screenshot","bbox":[54,190,520,390]}
+{"kind":"notes","id":"nt/lmqckw","slide":11,"text":"После remediation во compose е додаден Redis requirepass. Retest повторно го повикува Nmap и Redis verifier. Port 6380 останува open, но директниот PING без лозинка враќа -NOAUTH. Затоа AEGIS ја означува состојбата како FIXED, а не затоа што портата исчезнала."}
+{"kind":"slide","id":"sl/3ck4za","slide":12,"title":"11  •  СЦЕНАРИО C","textShapes":10}
+{"kind":"textbox","id":"sh/mtcne58j","slide":12,"text":"11  •  СЦЕНАРИО C","textPreview":"11  •  СЦЕНАРИО C","textChars":17,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/9gn6pkra","slide":12,"text":"Web сервис: NO_FINDING","textPreview":"Web сервис: NO_FINDING","textChars":22,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/ofe5gfqp","slide":12,"text":"Сервисот е достапен, но проценката нема доказ за ранливост","textPreview":"Сервисот е достапен, но проценката нема доказ за ранливост","textChars":58,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/vi5oru9g","slide":12,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/ahwnip8v","slide":12,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/xkn6tkr6","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/jmpovupc","slide":12,"bbox":[628,204,510,136]}
+{"kind":"shape","id":"sh/ilwnmp8r","slide":12,"bbox":[628,204,6,136]}
+{"kind":"textbox","id":"sh/c7mxcfqh","slide":12,"text":"Што значи NO_FINDING?","textPreview":"Што значи NO_FINDING?","textChars":21,"textLines":1,"bbox":[648,220,474,28]}
+{"kind":"textbox","id":"sh/x8velk72","slide":12,"text":"Системот потврдил дека сервисот одговара, но не потврдил конкретна ранливост. Овој резултат е различен од FIXED.","textPreview":"Системот потврдил дека сервисот одговара, но не потврдил конкретна ранливост. Овој резултат е различен од FIXED.","textChars":112,"textLines":1,"bbox":[648,258,474,68]}
+{"kind":"shape","id":"sh/a54fa58b","slide":12,"bbox":[628,370,510,146]}
+{"kind":"shape","id":"sh/b6dwjapw","slide":12,"bbox":[628,370,6,146]}
+{"kind":"textbox","id":"sh/kb6xgzqd","slide":12,"text":"Зошто LLM не одлучува?","textPreview":"Зошто LLM не одлучува?","textChars":22,"textLines":1,"bbox":[648,386,474,28]}
+{"kind":"textbox","id":"sh/lcfyp47y","slide":12,"text":"LLM triage моделот само го класифицира набљудувањето и предлага следен безбеден чекор. HTTP verifier ја одредува состојбата.","textPreview":"LLM triage моделот само го класифицира набљудувањето и предлага следен безбеден чекор. HTTP verifier ја одредува состојбата.","textChars":124,"textLines":1,"bbox":[648,424,474,78]}
+{"kind":"textbox","id":"sh/y9ofep8n","slide":12,"text":"Извештајот останува корисен: покажува што е измерено и што не е докажано.","textPreview":"Извештајот останува корисен: покажува што е измерено и што не е докажано.","textChars":73,"textLines":1,"bbox":[86,575,1030,30]}
+{"kind":"image","id":"im/tsfa5sj6","slide":12,"name":"","geometry":"roundRect","alt":"Real web-lab NO_FINDING assessment screenshot","bbox":[58,204,500,312]}
+{"kind":"notes","id":"nt/3ck4za","slide":12,"text":"Ова сценарио покажува важна граница. Отворената веб порта и HTTP одговорот се service discovery, не доказ за exploitability. AEGIS го задржува NO_FINDING за да избегне претерано тврдење."}
+{"kind":"slide","id":"sl/let0oi","slide":13,"title":"12  •  MULTI-MODEL КОНФИГУРАЦИЈА","textShapes":16}
+{"kind":"textbox","id":"sh/jil4b2l0","slide":13,"text":"12  •  MULTI-MODEL КОНФИГУРАЦИЈА","textPreview":"12  •  MULTI-MODEL КОНФИГУРАЦИЈА","textChars":32,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/kju547ml","slide":13,"text":"Избор на модел од интерфејсот","textPreview":"Избор на модел од интерфејсот","textChars":29,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/lknmdc36","slide":13,"text":"Моделите имаат одделни улоги, а операторот може да избере друга локална комбинација","textPreview":"Моделите имаат одделни улоги, а операторот може да избере друга локална комбинација","textChars":83,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/atcnyx4j","slide":13,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/bel472l4","slide":13,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/wfu50nmp","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/xg3m9s3u","slide":13,"bbox":[72,236,280,160]}
+{"kind":"textbox","id":"sh/u9wnah4n","slide":13,"text":"llama3.2:1b","textPreview":"llama3.2:1b","textChars":11,"textLines":1,"bbox":[86,248,252,24]}
+{"kind":"textbox","id":"sh/va5ojml8","slide":13,"text":"Nmap triage\nбрза класификација\nмал footprint","textPreview":"Nmap triage | брза класификација | мал footprint","textChars":44,"textLines":3,"bbox":[86,279,252,108]}
+{"kind":"shape","id":"sh/fetg3ux0","slide":13,"bbox":[500,236,280,160]}
+{"kind":"textbox","id":"sh/edkfupgf","slide":13,"text":"llama3.2:3b","textPreview":"llama3.2:3b","textChars":11,"textLines":1,"bbox":[514,248,252,24]}
+{"kind":"textbox","id":"sh/10by54fq","slide":13,"text":"Semantic Prompt Guard\nфинална анализа\nлокално и fail-closed","textPreview":"Semantic Prompt Guard | финална анализа | локално и fail-closed","textChars":59,"textLines":3,"bbox":[514,279,252,108]}
+{"kind":"shape","id":"sh/gf2xwzyl","slide":13,"bbox":[928,236,280,160]}
+{"kind":"textbox","id":"sh/32tg7exw","slide":13,"text":"Оpcionално","textPreview":"Оpcionално","textChars":10,"textLines":1,"bbox":[942,248,252,24]}
+{"kind":"textbox","id":"sh/21kfy9gb","slide":13,"text":"OpenRouter provider\nсамо со сопствен API key\nне е активен по default","textPreview":"OpenRouter provider | само со сопствен API key | не е активен по default","textChars":68,"textLines":3,"bbox":[942,279,252,108]}
+{"kind":"shape","id":"sh/p4vy94f2","slide":13,"bbox":[352,316,148,4]}
+{"kind":"shape","id":"sh/o32x0jyh","slide":13,"bbox":[780,316,148,4]}
+{"kind":"textbox","id":"sh/b6dgbex8","slide":13,"text":"Nmap result","textPreview":"Nmap result","textChars":11,"textLines":1,"bbox":[110,442,180,24]}
+{"kind":"textbox","id":"sh/a54f29gn","slide":13,"text":"Guard + recommendations","textPreview":"Guard + recommendations","textChars":23,"textLines":1,"bbox":[520,442,240,24]}
+{"kind":"textbox","id":"sh/m1ojud0v","slide":13,"text":"Provider swap","textPreview":"Provider swap","textChars":13,"textLines":1,"bbox":[982,442,180,24]}
+{"kind":"shape","id":"sh/72x03ihg","slide":13,"bbox":[72,512,1136,76]}
+{"kind":"textbox","id":"sh/83q1wni1","slide":13,"text":"Пример од демонстрацијата","textPreview":"Пример од демонстрацијата","textChars":25,"textLines":1,"bbox":[96,530,230,22]}
+{"kind":"textbox","id":"sh/94zi5sz6","slide":13,"text":"triage = llama3.2:3b   •   final analysis = llama3.2:1b   •   guard = llama3.2:3b","textPreview":"triage = llama3.2:3b   •   final analysis = llama3.2:1b   •   guard = llama3.2:3b","textChars":81,"textLines":1,"bbox":[96,558,1020,24]}
+{"kind":"notes","id":"nt/let0oi","slide":13,"text":"На овој слајд покажувам дека multi-model не значи дека моделите се случајно сменети. Секој има улога. Во UI може да се постави модел за Nmap triage и друг за финална анализа. Semantic guard останува посебен и fail-closed. OpenRouter е подготвен како опционален provider, но локалниот режим е основниот демонстрациски режим."}
+{"kind":"slide","id":"sl/eahvuv","slide":14,"title":"13  •  ЗАШТИТНИ МЕХАНИЗМИ","textShapes":11}
+{"kind":"textbox","id":"sh/3i9cvq1o","slide":14,"text":"13  •  ЗАШТИТНИ МЕХАНИЗМИ","textPreview":"13  •  ЗАШТИТНИ МЕХАНИЗМИ","textChars":25,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/4jid4vi9","slide":14,"text":"Ethical guard пред секоја ризична акција","textPreview":"Ethical guard пред секоја ризична акција","textChars":40,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/pkbux0ju","slide":14,"text":"AEGIS блокира prompt injection, непотребна ексфилтрација и target надвор од дозволениот scope","textPreview":"AEGIS блокира prompt injection, непотребна ексфилтрација и target надвор од дозволениот scope","textChars":93,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/ut0vylk7","slide":14,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/ve9crq1c","slide":14,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/gfid0v2x","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/zatw3a1w","slide":14,"bbox":[986,196,230,300]}
+{"kind":"textbox","id":"sh/3210n6d4","slide":14,"text":"BLOCK","textPreview":"BLOCK","textChars":5,"textLines":1,"bbox":[1016,232,160,30]}
+{"kind":"textbox","id":"sh/21sje1cj","slide":14,"text":"tools_called = []\n\npolicy.allowed = false\nscope.allowed = false\n\nLLM не добива команда","textPreview":"tools_called = [] |  | policy.allowed = false | scope.allowed = false |  | LLM не добива команда","textChars":86,"textLines":6,"bbox":[1016,286,170,160]}
+{"kind":"textbox","id":"sh/p43ipgva","slide":14,"text":"ALLOW","textPreview":"ALLOW","textChars":5,"textLines":1,"bbox":[64,548,120,24]}
+{"kind":"textbox","id":"sh/43u1gbup","slide":14,"text":"Безбедно едукативно прашање стигнува до локалниот LLM и добива одговор.","textPreview":"Безбедно едукативно прашање стигнува до локалниот LLM и добива одговор.","textChars":71,"textLines":1,"bbox":[64,576,500,30]}
+{"kind":"textbox","id":"sh/r6l0rqd0","slide":14,"text":"BLOCK","textPreview":"BLOCK","textChars":5,"textLines":1,"bbox":[640,548,120,24]}
+{"kind":"textbox","id":"sh/q5cjilcf","slide":14,"text":"Непознат target или обид за override се блокира пред алатката или моделот.","textPreview":"Непознат target или обид за override се блокира пред алатката или моделот.","textChars":74,"textLines":1,"bbox":[640,576,560,30]}
+{"kind":"image","id":"im/4r2lkj61","slide":14,"name":"","geometry":"roundRect","alt":"Blocked target response","bbox":[54,196,440,300]}
+{"kind":"image","id":"im/f29k7u54","slide":14,"name":"","geometry":"roundRect","alt":"Semantic prompt guard block","bbox":[520,196,440,300]}
+{"kind":"notes","id":"nt/eahvuv","slide":14,"text":"Овде ја покажувам разликата меѓу Policy/Ethical Scope Guard и Semantic Prompt Guard. Првиот контролира каде смее да се работи, вториот контролира што смее да стигне до LLM. Ако target не е одобрен, Nmap воопшто не се повикува. Ако prompt се обидува да ги заобиколи правилата, моделот не добива input."}
+{"kind":"slide","id":"sl/zwd09v","slide":15,"title":"14  •  КОНТРОЛИРАНА ВАЛИДАЦИЈА","textShapes":16}
+{"kind":"textbox","id":"sh/ix4jqpo3","slide":15,"text":"14  •  КОНТРОЛИРАНА ВАЛИДАЦИЈА","textPreview":"14  •  КОНТРОЛИРАНА ВАЛИДАЦИЈА","textChars":30,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/50fi14ne","slide":15,"text":"Metasploit каталог без автоматизиран напад","textPreview":"Metasploit каталог без автоматизиран напад","textChars":42,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/4z61sz6t","slide":15,"text":"AEGIS ги наоѓа соодветните модули за преглед, но автоматското извршување е строго исклучено","textPreview":"AEGIS ги наоѓа соодветните модули за преглед, но автоматското извршување е строго исклучено","textChars":91,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/vud0va5c","slide":15,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/ut4zmpor","slide":15,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/hwvixkni","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/76d0ra5g","slide":15,"bbox":[66,438,350,94]}
+{"kind":"textbox","id":"sh/65kzi5ov","slide":15,"text":"1  •  LIST — локален каталог","textPreview":"1  •  LIST — локален каталог","textChars":28,"textLines":1,"bbox":[96,454,290,24]}
+{"kind":"textbox","id":"sh/wfytk3mx","slide":15,"text":"msfconsole listing; auxiliary кандидати; нула payload и execution.","textPreview":"msfconsole listing; auxiliary кандидати; нула payload и execution.","textChars":66,"textLines":1,"bbox":[96,486,286,34]}
+{"kind":"shape","id":"sh/xg7ad8ni","slide":15,"bbox":[465,204,350,328]}
+{"kind":"textbox","id":"sh/adgbit4r","slide":15,"text":"2  •  MATCH","textPreview":"2  •  MATCH","textChars":11,"textLines":1,"bbox":[495,234,250,26]}
+{"kind":"textbox","id":"sh/vepsby5c","slide":15,"text":"AI селекција","textPreview":"AI селекција","textChars":12,"textLines":1,"bbox":[495,280,250,28]}
+{"kind":"textbox","id":"sh/8betgjm1","slide":15,"text":"llama3.2:3b споредува verified OPEN finding со листата на дозволени имиња. Моделот предлага match само ако каталогот врати кандидат. Параметрите се прикажуваат за едукативен преглед.","textPreview":"llama3.2:3b споредува verified OPEN finding со листата на дозволени имиња. Моделот предлага match само ако каталогот врати кандидат. Пара...","textChars":182,"textLines":1,"bbox":[495,338,250,136]}
+{"kind":"shape","id":"sh/9c7a9onm","slide":15,"bbox":[864,204,350,328]}
+{"kind":"textbox","id":"sh/mpwbe94v","slide":15,"text":"3  •  REVIEW","textPreview":"3  •  REVIEW","textChars":12,"textLines":1,"bbox":[894,234,250,26]}
+{"kind":"textbox","id":"sh/nq5s7e5g","slide":15,"text":"Човечка одлука","textPreview":"Човечка одлука","textChars":14,"textLines":1,"bbox":[894,280,250,28]}
+{"kind":"textbox","id":"sh/s7itsnm5","slide":15,"text":"execution: disabled е задолжително. Операторот или професорот ги прегледува доказите, а секоја понатамошна офанзивна активност бара посебна, изолирана и одобрена средина.","textPreview":"execution: disabled е задолжително. Операторот или професорот ги прегледува доказите, а секоја понатамошна офанзивна активност бара посеб...","textChars":170,"textLines":1,"bbox":[894,338,250,136]}
+{"kind":"textbox","id":"sh/t8rulsnq","slide":15,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[416,354,49,28]}
+{"kind":"textbox","id":"sh/1sn2pori","slide":15,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[815,354,49,28]}
+{"kind":"textbox","id":"sh/gru1gjax","slide":15,"text":"Забелешка за Windows: каталогот е опционален. Ако локалната Ruby компонента е блокирана од Windows Security, статусот е UNAVAILABLE, а останатите делови на AEGIS продолжуваат нормално.","textPreview":"Забелешка за Windows: каталогот е опционален. Ако локалната Ruby компонента е блокирана од Windows Security, статусот е UNAVAILABLE, а ос...","textChars":184,"textLines":1,"bbox":[80,594,1120,30]}
+{"kind":"image","id":"im/5k32tcre","slide":15,"name":"","geometry":"roundRect","alt":"Real AEGIS catalog review output","bbox":[66,204,350,218]}
+{"kind":"notes","id":"nt/zwd09v","slide":15,"text":"Ова е намерно ограничен дел. Кодот го поддржува listing и match, но AEGIS не извршува Metasploit exploit. Тоа е коректно за етичка лабораторија. Во моменталната конфигурација native Ruby делот може да биде блокиран од Windows Security, па не треба да тврдиме дека имаме демонстриран exploit."}
+{"kind":"slide","id":"sl/kqu4su","slide":16,"title":"15  •  ДОКАЗИ","textShapes":8}
+{"kind":"textbox","id":"sh/dwzq9gfm","slide":16,"text":"15  •  ДОКАЗИ","textPreview":"15  •  ДОКАЗИ","textChars":13,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/qt8ry1gv","slide":16,"text":"Извештај, audit trail и репродуктивност","textPreview":"Извештај, audit trail и репродуктивност","textChars":39,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/buh876xg","slide":16,"text":"Секој run остава трага што може да се прегледа и спореди","textPreview":"Секој run остава трага што може да се прегледа и спореди","textChars":56,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/orq9wby5","slide":16,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/pszq5wfa","slide":16,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/2p87u1gz","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"shape","id":"sh/8na98vy9","slide":16,"bbox":[572,204,590,292]}
+{"kind":"textbox","id":"sh/9o3ah0fu","slide":16,"text":"Што се запишува?","textPreview":"Што се запишува?","textChars":16,"textLines":1,"bbox":[600,232,320,28]}
+{"kind":"textbox","id":"sh/xsnatsj2","slide":16,"text":"• target и scope одлука\n• точната алатка и нејзиниот резултат\n• моделот што ја направил triage анализата\n• verified finding и препорака\n• report ID и retest споредба","textPreview":"• target и scope одлука | • точната алатка и нејзиниот резултат | • моделот што ја направил triage анализата | • verified finding и препо...","textChars":165,"textLines":5,"bbox":[600,286,490,150]}
+{"kind":"shape","id":"sh/cre9knix","slide":16,"bbox":[62,538,1100,2]}
+{"kind":"textbox","id":"sh/bq5sri1c","slide":16,"text":"Audit trail = оперативна трага за демонстрација и debugging. Не го претставуваме како криптографски immutable ledger.","textPreview":"Audit trail = оперативна трага за демонстрација и debugging. Не го претставуваме како криптографски immutable ledger.","textChars":117,"textLines":1,"bbox":[62,572,1100,30]}
+{"kind":"image","id":"im/yhwjudg3","slide":16,"name":"","geometry":"roundRect","alt":"Real generated AEGIS assessment report screenshot","bbox":[62,204,440,292]}
+{"kind":"notes","id":"nt/kqu4su","slide":16,"text":"Извештајот е Markdown и се зачувува во reports директориумот. Audit trail е append-only JSONL на апликациско ниво. Тоа е доволно за лабораториска демонстрација и за да се види кој агент што направил, но не го нарекувам криптографски immutable систем."}
+{"kind":"slide","id":"sl/1qiobd","slide":17,"title":"16  •  ПОКРИЕНОСТ","textShapes":24}
+{"kind":"textbox","id":"sh/a1wnq1k3","slide":17,"text":"16  •  ПОКРИЕНОСТ","textPreview":"16  •  ПОКРИЕНОСТ","textChars":17,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/x4nm1g3u","slide":17,"text":"Што е имплементирано и кои се границите","textPreview":"Што е имплементирано и кои се границите","textChars":39,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/w3e5sb29","slide":17,"text":"Транспарентната проценка е дел од етичкиот дизајн","textPreview":"Транспарентната проценка е дел од етичкиот дизајн","textChars":49,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/j6543ql0","slide":17,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/y5wnulkf","slide":17,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/l8nm5g36","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"textbox","id":"sh/k7e5wv2l","slide":17,"text":"Барање / способност","textPreview":"Барање / способност","textChars":19,"textLines":1,"bbox":[72,194,500,24]}
+{"kind":"textbox","id":"sh/7up47qlw","slide":17,"text":"Статус","textPreview":"Статус","textChars":6,"textLines":1,"bbox":[1010,194,160,24]}
+{"kind":"shape","id":"sh/6tgnylkb","slide":17,"bbox":[64,232,1100,42]}
+{"kind":"textbox","id":"sh/43m5s7a9","slide":17,"text":"Nmap повик + agent triage","textPreview":"Nmap повик + agent triage","textChars":25,"textLines":1,"bbox":[82,242,760,24]}
+{"kind":"textbox","id":"sh/p4v6lcru","slide":17,"text":"Има","textPreview":"Има","textChars":3,"textLines":1,"bbox":[1010,242,140,24]}
+{"kind":"shape","id":"sh/2h4nqxs3","slide":17,"bbox":[64,282,1100,42]}
+{"kind":"textbox","id":"sh/3idoj29o","slide":17,"text":"Проверка на ранливост + report","textPreview":"Проверка на ранливост + report","textChars":30,"textLines":1,"bbox":[82,292,760,24]}
+{"kind":"textbox","id":"sh/c7m5w7al","slide":17,"text":"Има","textPreview":"Има","textChars":3,"textLines":1,"bbox":[1010,292,140,24]}
+{"kind":"shape","id":"sh/d8f6pcrq","slide":17,"bbox":[64,332,1100,42]}
+{"kind":"textbox","id":"sh/q54nuxsf","slide":17,"text":"Patch → policy/retest","textPreview":"Patch → policy/retest","textChars":21,"textLines":1,"bbox":[82,342,760,24]}
+{"kind":"textbox","id":"sh/r6don290","slide":17,"text":"Има","textPreview":"Има","textChars":3,"textLines":1,"bbox":[1010,342,140,24]}
+{"kind":"shape","id":"sh/0b6p0rah","slide":17,"bbox":[64,382,1100,42]}
+{"kind":"textbox","id":"sh/1cf6twr2","slide":17,"text":"Повеќе локални модели","textPreview":"Повеќе локални модели","textChars":21,"textLines":1,"bbox":[82,392,760,24]}
+{"kind":"textbox","id":"sh/9sb6dcj6","slide":17,"text":"Има","textPreview":"Има","textChars":3,"textLines":1,"bbox":[1010,392,140,24]}
+{"kind":"shape","id":"sh/8r25kr2l","slide":17,"bbox":[64,432,1100,42]}
+{"kind":"textbox","id":"sh/nqtobm10","slide":17,"text":"Ethical scope и prompt блокирање","textPreview":"Ethical scope и prompt блокирање","textChars":32,"textLines":1,"bbox":[82,442,760,24]}
+{"kind":"textbox","id":"sh/mpknihkf","slide":17,"text":"Има","textPreview":"Има","textChars":3,"textLines":1,"bbox":[1010,442,140,24]}
+{"kind":"shape","id":"sh/hwv6hwj2","slide":17,"bbox":[64,482,1100,42]}
+{"kind":"textbox","id":"sh/wvm5orix","slide":17,"text":"Metasploit listing / match","textPreview":"Metasploit listing / match","textChars":26,"textLines":1,"bbox":[82,492,760,24]}
+{"kind":"textbox","id":"sh/vudofm1c","slide":17,"text":"Делумно","textPreview":"Делумно","textChars":7,"textLines":1,"bbox":[1010,492,140,24]}
+{"kind":"shape","id":"sh/atknmh0r","slide":17,"bbox":[64,532,1100,42]}
+{"kind":"textbox","id":"sh/d0r65sjy","slide":17,"text":"Автоматски exploit / ексфилтрација","textPreview":"Автоматски exploit / ексфилтрација","textChars":34,"textLines":1,"bbox":[82,542,760,24]}
+{"kind":"textbox","id":"sh/czi5c72d","slide":17,"text":"Исклучено","textPreview":"Исклучено","textChars":9,"textLines":1,"bbox":[1010,542,140,24]}
+{"kind":"shape","id":"sh/2twbq9wz","slide":17,"bbox":[64,582,1100,42]}
+{"kind":"textbox","id":"sh/3u5czedk","slide":17,"text":"OpenRouter cloud модел","textPreview":"OpenRouter cloud модел","textChars":22,"textLines":1,"bbox":[82,592,760,24]}
+{"kind":"textbox","id":"sh/4vetsje5","slide":17,"text":"Опционално","textPreview":"Опционално","textChars":10,"textLines":1,"bbox":[1010,592,140,24]}
+{"kind":"textbox","id":"sh/pwnu14vq","slide":17,"text":"Оваа листа ја кажува реалната состојба: AEGIS демонстрира безбедна проценка, а не неконтролиран офанзивен автомат.","textPreview":"Оваа листа ја кажува реалната состојба: AEGIS демонстрира безбедна проценка, а не неконтролиран офанзивен автомат.","textChars":114,"textLines":1,"bbox":[72,650,1100,24]}
+{"kind":"notes","id":"nt/1qiobd","slide":17,"text":"Овој слајд е корисен ако професорот праша што точно е завршено. Не тврдам дека има активен exploit. Има локален Nmap, агенти, verifier, multi-model, reports и retest. Metasploit делот е listing/match со execution disabled, а OpenRouter е само опционален provider."}
+{"kind":"slide","id":"sl/r1t1zk","slide":18,"title":"17  •  ЗАКЛУЧОК","textShapes":16}
+{"kind":"textbox","id":"sh/tc3id83u","slide":18,"text":"17  •  ЗАКЛУЧОК","textPreview":"17  •  ЗАКЛУЧОК","textChars":15,"textLines":1,"bbox":[54,34,600,20]}
+{"kind":"textbox","id":"sh/6pcz2tk3","slide":18,"text":"Што демонстрира AEGIS","textPreview":"Што демонстрира AEGIS","textChars":21,"textLines":1,"bbox":[54,58,1110,54]}
+{"kind":"textbox","id":"sh/7al0bylo","slide":18,"text":"Безбедна и детерминистичка оркестрација на алатки и модели во локална лабораторија","textPreview":"Безбедна и детерминистичка оркестрација на алатки и модели во локална лабораторија","textChars":82,"textLines":1,"bbox":[56,116,1080,28]}
+{"kind":"shape","id":"sh/gfeh832l","slide":18,"bbox":[54,152,1172,2]}
+{"kind":"textbox","id":"sh/hgnih8jq","slide":18,"text":"AEGIS  •  локална Purple-Team лабораторија","textPreview":"AEGIS  •  локална Purple-Team лабораторија","textChars":42,"textLines":1,"bbox":[54,688,450,18]}
+{"kind":"textbox","id":"sh/udcz6dkf","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1190,688,36,18]}
+{"kind":"textbox","id":"sh/fe50fi10","slide":18,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[82,224,50,42]}
+{"kind":"textbox","id":"sh/4jehcn2h","slide":18,"text":"Реален алат, а не симулација","textPreview":"Реален алат, а не симулација","textChars":28,"textLines":1,"bbox":[146,222,450,32]}
+{"kind":"textbox","id":"sh/pknilsj2","slide":18,"text":"Nmap и Metasploit се повикуваат како системски процеси, а структурираниот резултат се предава на Triage агентот за анализа и контекст.","textPreview":"Nmap и Metasploit се повикуваат како системски процеси, а структурираниот резултат се предава на Triage агентот за анализа и контекст.","textChars":134,"textLines":1,"bbox":[146,262,470,52]}
+{"kind":"textbox","id":"sh/d4f2ton6","slide":18,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[82,358,50,42]}
+{"kind":"textbox","id":"sh/c361036l","slide":18,"text":"Проверлив и точен наод","textPreview":"Проверлив и точен наод","textChars":22,"textLines":1,"bbox":[146,356,400,32]}
+{"kind":"textbox","id":"sh/r2xkry5g","slide":18,"text":"Verifier модулите детерминистички одлучуваат OPEN, FIXED или NO_FINDING. LLM помага за контекст, објаснување и препорака, но не ја прогласува ранливоста.","textPreview":"Verifier модулите детерминистички одлучуваат OPEN, FIXED или NO_FINDING. LLM помага за контекст, објаснување и препорака, но не ја прогла...","textChars":153,"textLines":1,"bbox":[146,396,470,58]}
+{"kind":"textbox","id":"sh/q14jytov","slide":18,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[82,492,50,42]}
+{"kind":"textbox","id":"sh/lsf2x8ni","slide":18,"text":"Строги етички граници","textPreview":"Строги етички граници","textChars":21,"textLines":1,"bbox":[146,490,470,32]}
+{"kind":"textbox","id":"sh/0r6l436x","slide":18,"text":"Scope, Prompt и Transfer заштитниците спречуваат надворешни мети, измамнички команди и истекување податоци. Офанзивното извршување останува исклучено.","textPreview":"Scope, Prompt и Transfer заштитниците спречуваат надворешни мети, измамнички команди и истекување податоци. Офанзивното извршување остану...","textChars":150,"textLines":1,"bbox":[146,530,470,58]}
+{"kind":"shape","id":"sh/z6xkvy5c","slide":18,"bbox":[710,214,450,344]}
+{"kind":"textbox","id":"sh/y5o32tor","slide":18,"text":"Демо редослед за одбрана","textPreview":"Демо редослед за одбрана","textChars":24,"textLines":1,"bbox":[744,248,370,30]}
+{"kind":"textbox","id":"sh/hwv2l47y","slide":18,"text":"1  Discover + approve\n2  Run web-lab → NO_FINDING\n3  Run redis-lab → OPEN\n4  Patch Redis\n5  Retest → FIXED\n6  Prompt BLOCK + transfer BLOCK","textPreview":"1  Discover + approve | 2  Run web-lab → NO_FINDING | 3  Run redis-lab → OPEN | 4  Patch Redis | 5  Retest → FIXED | 6  Prompt BLOCK + tr...","textChars":139,"textLines":6,"bbox":[744,310,340,180]}
+{"kind":"notes","id":"nt/r1t1zk","slide":18,"text":"На крајот го поврзувам целиот проект со кратка демонстрација: прво web NO_FINDING, потоа Redis OPEN, рачна закрпа, Redis FIXED retest, а на крај prompt и transfer BLOCK. Така професорот гледа и реален алат, и LLM, и заштитни механизми."}
